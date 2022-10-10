@@ -33,40 +33,50 @@
         top: 70%;
     */
 
-    position: absolute;
-    top: 50%;
+    position:center;
+    top: 1rem;
     left: 50%;
     margin: -25px 0 0 -25px;
 }
 
 .logo {
-    /* position:relative;
     width: 538px;
+    height: 367px;
+    position: absolute;
+    left: 451px;
+    top: 0px;
+    /*background-image: url(images/tintalogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    /*position: center;*/
+    /*width: 538px;
     height: 367px;
     top: 10px;
-    left: 38%;
-    transform: translate(-50, -50);*/
-    width: 538px;
-    height: 367px;
-   /* position: absolute;
-    left: 451px;
-    top: 0px;*/
-    background-image: url(images/tintalogo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  /*  margin: 0 auto;*/
+    left: 38%;*/
+    /* transform: translate(-50, -50);*/
+    /*width: 638px;
+    height: 367px;*/
+    /* position: absolute;
+    left: 451px;*/
+    /*top: 0px;*/
+    /* background-image: url(images/tintalogo.png);*/
+    /*background-repeat: no-repeat;*/
+    /*   background-size: cover;
+    margin: 0 auto;*/
+    /* display: flex;
+    justify-content: center;*/
 }
 
 .login .form {
     width: 200px;
     height: 100px;
-    /*padding: 15px 25px;*/
-/*    position: center;*/
-    /*position: absolute ;*/
+    padding: 15px 25px 0px 0px;
+    /*    position: center;*/
+    position: absolute ;
 
-   /* top: 50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50, -50);
+    /*transform: translate(-50, -50);
     align-content: center;*/
 
     margin: 0 auto;

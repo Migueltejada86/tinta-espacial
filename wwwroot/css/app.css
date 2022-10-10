@@ -73,14 +73,14 @@ body {
     background-attachment: scroll;
     /*background-repeat: no-repeat;*/
     /*background-image: url(../images/base.png);*/
-    background: url(https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif) no-repeat;
+    background: url(https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif) /*no-repeat*/;
     background-size: cover;
+    background-repeat: repeat;
     /*background-color: #FFCECB;
        
         padding-top:5rem;*/
     flex-direction: column;
     overflow: visible;
-
 }
 /*
 .login {
